@@ -4,11 +4,22 @@
   width: 100%;
   position: absolute;
   top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background-color: #ff525d;
-  height: 250px;
   border-radius: 0 0 0 55px;
   background-image: url("../images/bg-pattern-intro.svg");
-  background-size: 180%;
+  background-size: 160%;
   background-repeat: no-repeat;
   background-position: center left;
 }
@@ -89,6 +100,94 @@
 }
 
 .navbar-main-wrap .navbar-link .navbar-login .sign-up:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+.navbar-main-wrap .navbar-hero-header {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+
+.navbar-main-wrap .navbar-hero-header .navbar-hero-title {
+  font-family: "overpass", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: white;
+}
+
+.navbar-main-wrap .navbar-hero-header .navbar-hero-subtitle {
+  font-family: "overpass", sans-serif;
+  font-size: 18px;
+  opacity: 0.8;
+  font-weight: 600;
+  color: white;
+}
+
+.navbar-main-wrap .navbar-hero-header .navbar-hero-header-btn-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 25px;
+}
+
+.navbar-main-wrap .navbar-hero-header .navbar-hero-header-btn-wrap .navbar-hero-btn {
+  all: unset;
+  font-family: "overpass", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: white;
+}
+
+.navbar-main-wrap .navbar-hero-header .navbar-hero-header-btn-wrap .navbar-learn {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.navbar-main-wrap .navbar-hero-header .navbar-hero-header-btn-wrap .navbar-start {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.navbar-main-wrap .navbar-hero-header .navbar-hero-header-btn-wrap .navbar-learn:hover {
+  background-color: white;
+  color: #ff3d54;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+.navbar-main-wrap .navbar-hero-header .navbar-hero-header-btn-wrap .navbar-start:hover {
   background-color: rgba(255, 255, 255, 0.2);
   -webkit-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;

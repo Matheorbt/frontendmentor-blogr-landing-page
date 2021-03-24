@@ -2,11 +2,14 @@
     width: 100%;
     position: absolute;
     top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
     background-color: $lightRed;
-    height: 250px;
     border-radius: 0 0 0 55px;
     background-image: url("../images/bg-pattern-intro.svg");
-    background-size: 180%;
+    background-size: 160%;
     background-repeat: no-repeat;
     background-position: center left;
     .navbar-link {
@@ -60,6 +63,68 @@
                 cursor: pointer;
             }
             .sign-up:hover {
+                background-color: rgba(255, 255, 255, 0.2);;
+                transition: all 0.25s ease-in-out;
+                cursor: pointer;
+            }
+        }
+    }
+    .navbar-hero-header {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        .navbar-hero-title {
+            font-family: "overpass", sans-serif;
+            font-size: 36px;
+            font-weight: $overpasssMedium;
+            color: white;
+        }
+        .navbar-hero-subtitle {
+            font-family: "overpass", sans-serif;
+            font-size: 18px;
+            opacity: 0.8;
+            font-weight: $overpasssMedium;
+            color: white;
+        }
+        .navbar-hero-header-btn-wrap {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 25px;
+            .navbar-hero-btn {
+                all: unset;
+                font-family: "overpass", sans-serif;
+                font-weight: $overpasssMedium;
+                font-size: 14px;
+                color: white;
+            }
+            .navbar-learn {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 25px;
+                padding-right: 25px;
+                border-radius: 25px;
+                background-color: rgba(255, 255, 255, 0.0);
+            }
+            .navbar-start {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 25px;
+                padding-right: 25px;
+                border-radius: 25px;
+                background-color: rgba(255, 255, 255, 0.0);
+            }
+            .navbar-learn:hover {
+                background-color: rgba(255, 255, 255, 1);
+                color: $bgLightRed;
+                transition: all 0.25s ease-in-out;
+                cursor: pointer;
+            }
+            .navbar-start:hover {
                 background-color: rgba(255, 255, 255, 0.2);;
                 transition: all 0.25s ease-in-out;
                 cursor: pointer;
