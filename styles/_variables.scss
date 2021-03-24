@@ -1,0 +1,42 @@
+//Google fonts include
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+//Fonts
+    //Fonts Weight
+    $overpassLight: 300;
+    $overpasssMedium: 600;
+    $ubuntuRegular: 400;
+    $ubuntuMedium: 500;
+    $ubuntuBold: 700;
+
+    //Body font
+    $fontSize: 16px;
+
+//Device width
+
+$widthMobile: 375px;
+$widthDesktop: 1440px;
+
+//Colors
+
+    //Primary color variables
+    $lightRed: hsl(356, 100%, 66%);
+    $veryLightRed: hsl(355, 100%, 74%);
+    $veryDarkBlue: hsl(208, 49%, 24%);
+    
+    //Neutral color variables
+    $white: hsl(0, 0%, 100%);
+    $grayishBlue: hsl(240, 2%, 79%);
+    $veryDarkGrayishBlue: hsl(207, 13%, 34%);
+    $veryDarkBlackBlue: hsl(240, 10%, 16%);
+    
+    //Gradient color variables
+    
+    //Mobile nav
+    $bgVeryLightRed: hsl(13, 100%, 72%);
+    $bgLightRed: hsl(353, 100%, 62%);
+    
+    //body
+    $bgVeryDarkGrayBlue: hsl(237, 17%, 21%);
+    $bgDarkDeasturatedBlue: hsl(237, 23%, 32%);
