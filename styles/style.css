@@ -1,5 +1,100 @@
 @import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+.navbar-main-wrap {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  background-color: #ff525d;
+  height: 250px;
+  border-radius: 0 0 0 55px;
+  background-image: url("../images/bg-pattern-intro.svg");
+  background-size: 180%;
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+
+.navbar-main-wrap .navbar-link {
+  margin-top: 35px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-family: 'overpass', sans-serif;
+  font-weight: 600;
+}
+
+.navbar-main-wrap .navbar-link .navbar-link-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+.navbar-main-wrap .navbar-link .navbar-link-navigation .navbar-link-element {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.navbar-main-wrap .navbar-link .navbar-link-navigation .navbar-brand {
+  font-size: 28px;
+  margin-right: 20px;
+}
+
+.navbar-main-wrap .navbar-link .navbar-login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  gap: 20px;
+  padding: 0px;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.navbar-main-wrap .navbar-link .navbar-login .login {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.navbar-main-wrap .navbar-link .navbar-login .sign-up {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.navbar-main-wrap .navbar-link .navbar-login .login:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+.navbar-main-wrap .navbar-link .navbar-login .sign-up:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -15,7 +110,5 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   text-decoration: none;
-  font-family: 'Overpass',sans-serif;
-  font-weight: 600;
 }
 /*# sourceMappingURL=style.css.map */

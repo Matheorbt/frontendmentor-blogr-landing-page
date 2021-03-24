@@ -1,0 +1,69 @@
+.navbar-main-wrap {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: $lightRed;
+    height: 250px;
+    border-radius: 0 0 0 55px;
+    background-image: url("../images/bg-pattern-intro.svg");
+    background-size: 180%;
+    background-repeat: no-repeat;
+    background-position: center left;
+    .navbar-link {
+        margin-top: 35px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: $white;
+        font-family: 'overpass', sans-serif;
+        font-weight: $overpasssMedium;
+        .navbar-link-navigation {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            gap: 20px;
+            .navbar-link-element {
+                font-size: 14px;
+                opacity: 0.8;
+            }
+            .navbar-brand {
+                font-size: 28px;
+                margin-right: 20px;
+            }
+        }
+        .navbar-login {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+            padding: 0px;
+            transition: all 0.25s ease-in-out;
+            .login {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 25px;
+                padding-right: 25px;
+                border-radius: 25px;
+                background-color: rgba(255, 255, 255, 0.0);
+            }
+            .sign-up {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 25px;
+                padding-right: 25px;
+                border-radius: 25px;
+                background-color: rgba(255, 255, 255, 0.0);
+            }
+            .login:hover {
+                background-color: rgba(255, 255, 255, 0.2);;
+                transition: all 0.25s ease-in-out;
+                cursor: pointer;
+            }
+            .sign-up:hover {
+                background-color: rgba(255, 255, 255, 0.2);;
+                transition: all 0.25s ease-in-out;
+                cursor: pointer;
+            }
+        }
+    }
+}
