@@ -1,6 +1,6 @@
 .navbar-main-wrap {
     width: 100%;
-    position: absolute;
+    position: relative;
     top: 0;
     display: flex;
     align-items: center;
@@ -129,6 +129,46 @@
                 transition: all 0.25s ease-in-out;
                 cursor: pointer;
             }
+        }
+    }
+}
+
+.introduction-main-wrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 80px;
+    .introduction-title {
+        font-family: "ubuntu", sans-serif;
+        font-weight: $ubuntuMedium;
+        color: $veryDarkBlue;
+    }
+    .introduction-colum-wrap {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 50px;
+        .introduction-column-text {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            .introduction-title-paragraph {
+                font-family: "ubuntu", sans-serif;
+                font-weight: $ubuntuRegular;
+                color: $veryDarkBlue;
+            }
+            .introduction-paragraph {
+                font-family: "ubuntu", sans-serif;
+                font-weight: $ubuntuRegular;
+                font-size: $fontSize;
+                color: $veryDarkBlue;
+            }
+        }
+        .introduction-column-illustration svg {
+            width: 50vw;
+            height: 100%;
         }
     }
 }
