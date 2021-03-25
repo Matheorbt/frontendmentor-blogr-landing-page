@@ -7,3 +7,57 @@
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+.introduction-main-wrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 80px;
+    .introduction-title {
+        font-family: "ubuntu", sans-serif;
+        font-weight: $ubuntuMedium;
+        color: $veryDarkBlue;
+    }
+    .introduction-colum-wrap {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 50px;
+        .introduction-column-text {
+            display: flex;
+            flex-direction: column;
+            gap: 60px;
+            .introduction-title-paragraph {
+                font-family: "ubuntu", sans-serif;
+                font-weight: $ubuntuBold;
+                color: $veryDarkBlue;
+            }
+            .introduction-paragraph {
+                font-family: "ubuntu", sans-serif;
+                font-weight: $ubuntuRegular;
+                font-size: $fontSize;
+                color: $veryDarkGrayishBlue;
+                font-size: 18px;
+            }
+            .introduction-column-left {
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                flex-direction: column;
+                gap: 30px;
+            }
+            .introduction-column-right {
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                flex-direction: column;
+                gap: 30px;
+            }
+        }
+        .introduction-column-illustration {
+            transform: translate(10%,-15%);
+        }
+    }
+}

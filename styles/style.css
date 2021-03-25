@@ -269,6 +269,107 @@
   color: #3e52a3;
 }
 
+.introduction-main-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 100px;
+  margin-left: 80px;
+}
+
+.introduction-main-wrap .introduction-title {
+  font-family: "ubuntu", sans-serif;
+  font-weight: 500;
+  color: #1f3f5b;
+}
+
+.introduction-main-wrap .introduction-colum-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 50px;
+}
+
+.introduction-main-wrap .introduction-colum-wrap .introduction-column-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 60px;
+}
+
+.introduction-main-wrap .introduction-colum-wrap .introduction-column-text .introduction-title-paragraph {
+  font-family: "ubuntu", sans-serif;
+  font-weight: 700;
+  color: #1f3f5b;
+}
+
+.introduction-main-wrap .introduction-colum-wrap .introduction-column-text .introduction-paragraph {
+  font-family: "ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #4b5862;
+  font-size: 18px;
+}
+
+.introduction-main-wrap .introduction-colum-wrap .introduction-column-text .introduction-column-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+}
+
+.introduction-main-wrap .introduction-colum-wrap .introduction-column-text .introduction-column-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+}
+
+.introduction-main-wrap .introduction-colum-wrap .introduction-column-illustration {
+  -webkit-transform: translate(10%, -15%);
+          transform: translate(10%, -15%);
+}
+
 * {
   margin: 0;
   padding: 0;
